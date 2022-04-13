@@ -132,6 +132,10 @@ form input:focus{
         flex-direction: column;
     }
 
+    form{
+        margin-left: 50px;
+    }
+
     .left{
         width: 400px;
         align-content: center;
@@ -141,6 +145,10 @@ form input:focus{
     .left p{
         height: 75px;
         font-size: 20px;
+    }
+
+    .left img{
+        margin-left: 60px;
     }
 }
 
@@ -152,10 +160,15 @@ form input:focus{
         align-items: center;
     }
 
+    .left img{
+        margin-left: 60px;
+    }
+
     form{
         width: 350px;
         align-content: center;
         align-items: center;
+        margin-right: 40px;
     }
 }
 
@@ -172,6 +185,7 @@ form input:focus{
 
     .left img{
         height: 95px;
+        margin-right: 60px;
     }
 
     .left p, right p{
